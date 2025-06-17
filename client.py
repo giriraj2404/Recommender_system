@@ -33,7 +33,7 @@ if selected == "Dashboard":
     GEOFENCE_CENTER = (8.552327586824264, 76.88001143071841)  # Nagpur
     GEOFENCE_RADIUS = 500  # meters
 
-    st.title("ðŸ“Š Servi-AI Client Dashboard")
+    st.title("📊 Servi-AI Client Dashboard")
 
     # Load live data
     try:
@@ -60,10 +60,10 @@ if selected == "Dashboard":
 
     # KPI Display
     col1, col2, col3, col4, col5 = st.columns(5)
-    col1.metric("ðŸ§­ Members in Geofence", members_in_geofence)
-    col2.metric("â›½ Members redeemed offers", members_in_gas_station)
-    col3.metric("ðŸŽ¯ Offer Penetration", penetration)
-    col4.metric("ðŸ’° Sales Generated", sales)
+    col1.metric("🧭 Members in Geofence", members_in_geofence)
+    col2.metric("⛽ Members redeemed offers", members_in_gas_station)
+    col3.metric("🎯 Offer Penetration", penetration)
+    col4.metric("💰 Sales Generated", sales)
     col5.metric("### Total Day Penetration", total_penetration)
     # Folium map
     map_ = folium.Map(location=GEOFENCE_CENTER, zoom_start=16,)

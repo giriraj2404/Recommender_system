@@ -81,7 +81,7 @@ if __name__ == "__main__":
                     if pd.isna(last_user_id):
                         last_user_id = 0
                 except Exception as e:
-                    print(f"âš ï¸ Failed to read existing CSV: {e}")
+                    print(f"⚠️ Failed to read existing CSV: {e}")
                     old_df = pd.DataFrame()
                     last_user_id = 0
             else:
@@ -98,10 +98,11 @@ if __name__ == "__main__":
             combined_df = pd.concat([old_df, new_df], ignore_index=True)
             combined_df.to_csv(csv_path, index=False)
 
-            print(f"[{datetime.now().strftime('%H:%M:%S')}] âœ… Appended {len(new_df)} new users. Total now: {len(combined_df)}")
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] ✅ Appended {len(new_df)} new users. Total now: {len(combined_df)}")
 
         except Exception as e:
             print(f"Error occurred: {e}")
 
         # Wait before next update
         time.sleep(60)
+

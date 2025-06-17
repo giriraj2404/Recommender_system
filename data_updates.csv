@@ -1,0 +1,11 @@
+user_id,Name,Phone_Number,latitude,longitude,in_gas_station,availed_offer,purchase_amount,Membership,loyalty_points,Offers
+35,Neel Oommen,4197207698,8.551994100634834,76.8757737386992,True,True,174,Member,81,Snack and drink combo
+36,Deepa Parikh,04280715084,8.551166612787773,76.87675101413289,True,False,0,Non_member,419,None
+37,Krishna Khatri,05945992466,8.549392350265203,76.87672213756527,False,True,92,Member,344,Birthday double points
+38,Faris Agarwal,3523376960,8.551778698186748,76.88034788121534,False,False,0,Non_member,491,None
+39,Neelima Sahota,0271427878,8.552593782040043,76.8780389381156,True,False,0,Member,369,None
+40,Aadi Barad,05470638120,8.553031929895731,76.87992821364435,False,True,226,Non_member,308,Birthday double points
+41,Neelima Sahni,00300891319,8.552620966557997,76.88045248155288,False,False,0,Member,129,None
+42,Rushil Mittal,02176104714,8.553756794824661,76.88399945318477,True,True,124,Non_member,169,Fuel and cafe combo
+43,Kiaan Verma,5124000348,8.554080659805614,76.88237663115981,True,False,0,Non_member,425,None
+44,Divya Peri,0977658236,8.55022285771104,76.88094920690827,True,True,396,Non_member,29,Free coffee and snacks
