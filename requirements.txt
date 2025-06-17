@@ -1,0 +1,13 @@
+streamlit
+pandas
+folium
+geopy
+faker
+streamlit_folium
+streamlit_autorefresh
+plotly
+streamlit-option-menu
+ultralytics
+opencv-python
+easyocr
+imutils
